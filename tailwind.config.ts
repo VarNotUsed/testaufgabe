@@ -10,7 +10,26 @@ export default {
     extend: {
       colors: {
         background: "var(--background)",
-        foreground: "var(--foreground)",
+        foreground: "var(--primary)",
+        default: "var(--primary)",
+      },
+      fontSize: {
+        "h1": [
+          "36px",
+          {
+            lineHeight: "30px",
+            letterSpacing: "-2.5px",
+            fontWeight: "600",
+          },
+        ],
+        "h2": [
+          "24px",
+          {
+            lineHeight: "30px",
+            letterSpacing: "-2.5px",
+            fontWeight: "600",
+          },
+        ],
       },
     },
   },
