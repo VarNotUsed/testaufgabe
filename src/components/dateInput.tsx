@@ -1,19 +1,19 @@
 import React, { useState, useRef, useEffect } from "react";
 import { Calendar } from "lucide-react";
 
-interface DateOfBirthPickerProps {
+interface DateInputProps {
   label?: string;
   value?: Date;
   onChange: (date: Date | undefined) => void;
   error?: string;
 }
 
-export function DateOfBirthPicker({
+export function DateInput({
   label,
   value,
   onChange,
   error,
-}: DateOfBirthPickerProps) {
+}: DateInputProps) {
   const [isOpen, setIsOpen] = useState(false);
   const [currentView, setCurrentView] = useState<"year" | "month" | "day">(
     "year"
@@ -203,4 +203,4 @@ export function DateOfBirthPicker({
   );
 }
 
-export default DateOfBirthPicker;
+export default DateInput;
