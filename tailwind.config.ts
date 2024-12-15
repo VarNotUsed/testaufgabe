@@ -11,6 +11,7 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--primary)",
+        secondary: "var(--secondary)",
         default: "var(--primary)",
       },
       fontSize: {
@@ -33,5 +34,6 @@ export default {
       },
     },
   },
-  plugins: [],
+  plugins: [
+  ],
 } satisfies Config;

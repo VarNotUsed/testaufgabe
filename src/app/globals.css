@@ -5,6 +5,7 @@
 :root {
   --background: #ffffff;
   --primary: rgba(84, 95, 113, 1);
+  --secondary: rgba(238, 241, 244, 1);
 }
 
 body {
